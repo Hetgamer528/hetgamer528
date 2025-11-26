@@ -6,14 +6,33 @@
       .tag { fill: #9ca3af; font-family: 'Segoe UI', Arial, sans-serif; font-size: 12px; }
       .tag-bg { fill: #21262d; }
     </style>
-    
-    <!-- Slice Logo as SVG -->
-    <g id="slice-logo">
-      <rect width="70" height="70" rx="12" fill="#2563eb"/>
-      <path d="M 20 28 L 35 20 L 50 28 L 35 36 Z" fill="#60a5fa"/>
-      <path d="M 20 48 L 35 40 L 50 48 L 35 56 Z" fill="#3b82f6"/>
-    </g>
   </defs>
   
   <!-- Background -->
   <rect width="100%" height="100%" fill="#161b22" rx="10"/>
+  
+  <!-- Logo -->
+  <rect x="15" y="40" width="70" height="70" rx="12" fill="#2563eb"/>
+  <path d="M 35 68 L 50 60 L 65 68 L 50 76 Z" fill="#60a5fa"/>
+  <path d="M 35 88 L 50 80 L 65 88 L 50 96 Z" fill="#3b82f6"/>
+  
+  <!-- Text -->
+  <text class="title" x="100" y="65">Slice.WTF Hosting</text>
+  <text class="description" x="100" y="88">A high-performance hosting platform.</text>
+  
+  <!-- Tags -->
+  <g transform="translate(100, 110)">
+    <rect class="tag-bg" width="50" height="24" rx="12"/>
+    <text class="tag" x="25" y="16" text-anchor="middle">Cloud</text>
+  </g>
+  
+  <g transform="translate(160, 110)">
+    <rect class="tag-bg" width="85" height="24" rx="12"/>
+    <text class="tag" x="42.5" y="16" text-anchor="middle">Automation</text>
+  </g>
+  
+  <g transform="translate(255, 110)">
+    <rect class="tag-bg" width="95" height="24" rx="12"/>
+    <text class="tag" x="47.5" y="16" text-anchor="middle">Infrastructure</text>
+  </g>
+</svg>
