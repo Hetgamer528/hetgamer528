@@ -68,23 +68,15 @@ Since 2021, I've been on a journey deep into cloud computing and cybersecurity. 
 ---
 
 ### 🚀 Featured Projects
-<p align="center" style="display:flex; gap:20px; justify-content:center; flex-wrap:wrap;">
+<p align="center">
   <a href="https://slice.wtf">
-    <img src="https://raw.githubusercontent.com/hetgamer528/hetgamer528/main/assets/slice.png" 
-         alt="Slice.WTF Hosting" 
-         width="300" />
+    <img src="https://raw.githubusercontent.com/abhishek-gaur-2007/abhishek-gaur-2007/main/assets/slice-wtf-card.svg" alt="Slice.WTF Hosting" />
   </a>
-
   <a href="https://mcshield.org">
-    <img src="https://raw.githubusercontent.com/hetgamer528/hetgamer528/main/assets/mcshield.png" 
-         alt="McShield.ORG" 
-         width="300" />
+    <img src="https://raw.githubusercontent.com/abhishek-gaur-2007/abhishek-gaur-2007/main/assets/mcshield-card.svg" alt="McShield.ORG" />
   </a>
-
   <a href="https://c2security.ovh">
-    <img src="https://raw.githubusercontent.com/hetgamer528/hetgamer528/main/assets/c2.png" 
-         alt="C2-Security" 
-         width="300" />
+    <img src="https://raw.githubusercontent.com/abhishek-gaur-2007/abhishek-gaur-2007/main/assets/c2-security-card.svg" alt="C2-Security" />
   </a>
 </p>
 
