@@ -1,7 +1,12 @@
-<div style="display:flex;align-items:center;gap:12px;">
-  <img src="https://raw.githubusercontent.com/hetgamer528/hetgamer528/main/assets/slice.png" width="48" height="48" />
-  <div>
-    <strong>Slice.WTF Hosting</strong><br>
-    A high-performance hosting platform.
-  </div>
-</div>
+<svg viewBox="0 0 828 330" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <style>
+      .card-bg { fill: #1a1f2e; }
+      .title { fill: #60a5fa; font-family: 'Segoe UI', Arial, sans-serif; font-size: 24px; font-weight: 600; }
+      .description { fill: #d1d5db; font-family: 'Segoe UI', Arial, sans-serif; font-size: 14px; }
+      .tag { fill: #4b5563; font-family: 'Segoe UI', Arial, sans-serif; font-size: 12px; }
+      .tag-bg { fill: #374151; rx: 4; }
+    </style>
+  </defs>
+  
+  <rect width="828" height="330" fill="#0f172a"/>
