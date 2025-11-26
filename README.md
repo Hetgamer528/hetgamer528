@@ -20,7 +20,7 @@ Since 2021, I've been on a journey deep into cloud computing and cybersecurity. 
 
 - 🔭 **What I'm building:** Hosting platforms, security systems, and automated infrastructure.
 - 🧠 **My mindset:** Breadth-first exploration across cloud, security, networking, and SRE.
-- 🎮 **For fun:** I develop and optimize Minecraft servers, focusing on performance and anti-cheat.
+- 🎮 **For fun:** I develop and optimize Servers, focusing on performance and threat protection.
 - ✉️ **Get in touch:** neofetch.sh@gmail.com
 
 ---
