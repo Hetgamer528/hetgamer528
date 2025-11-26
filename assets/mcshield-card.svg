@@ -1,9 +1,9 @@
 <svg width="400" height="150" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <style>
-      .title { fill: #58a6ff; font-family: 'Segoe UI', Arial, sans-serif; font-size: 20px; font-weight: 600; }
-      .description { fill: #c9d1d9; font-family: 'Segoe UI', Arial, sans-serif; font-size: 14px; }
-      .tag { fill: #8b949e; font-family: 'Segoe UI', Arial, sans-serif; font-size: 12px; }
+      .title { fill: #60a5fa; font-family: 'Segoe UI', Arial, sans-serif; font-size: 20px; font-weight: 600; }
+      .description { fill: #d1d5db; font-family: 'Segoe UI', Arial, sans-serif; font-size: 14px; }
+      .tag { fill: #9ca3af; font-family: 'Segoe UI', Arial, sans-serif; font-size: 12px; }
       .tag-bg { fill: #21262d; }
     </style>
   </defs>
@@ -11,42 +11,28 @@
   <!-- Background -->
   <rect width="100%" height="100%" fill="#161b22" rx="10"/>
   
-  <!-- Logo - Clean Shield Design -->
-  <g transform="translate(15, 40)">
-    <defs>
-      <linearGradient id="shieldGrad" x1="0%" y1="0%" x2="0%" y2="100%">
-        <stop offset="0%" style="stop-color:#58a6ff;stop-opacity:1" />
-        <stop offset="100%" style="stop-color:#1f6feb;stop-opacity:1" />
-      </linearGradient>
-    </defs>
-    
-    <!-- Main shield shape -->
-    <path d="M 35 15 L 60 27 L 60 45 Q 60 62 35 70 Q 10 62 10 45 L 10 27 Z" fill="url(#shieldGrad)" stroke="#79c0ff" stroke-width="2"/>
-    
-    <!-- Shield inner highlight -->
-    <path d="M 35 20 L 55 30 L 55 45 Q 55 58 35 65 Q 15 58 15 45 L 15 30 Z" fill="none" stroke="#79c0ff" stroke-width="1" opacity="0.5"/>
-    
-    <!-- Center line detail -->
-    <line x1="35" y1="20" x2="35" y2="65" stroke="#79c0ff" stroke-width="1.5" opacity="0.6"/>
-  </g>
+  <!-- Logo -->
+  <rect x="20" y="47" width="60" height="60" rx="10" fill="#2563eb"/>
+  <path d="M 38 72 L 50 66 L 62 72 L 50 78 Z" fill="#60a5fa"/>
+  <path d="M 38 88 L 50 82 L 62 88 L 50 94 Z" fill="#3b82f6"/>
   
   <!-- Text -->
-  <text class="title" x="100" y="65">McShield.ORG</text>
-  <text class="description" x="100" y="88">Advanced DDoS protection for networks.</text>
+  <text class="title" x="100" y="65">Slice.WTF Hosting</text>
+  <text class="description" x="100" y="88">A high-performance hosting platform.</text>
   
   <!-- Tags -->
   <g transform="translate(100, 110)">
-    <rect class="tag-bg" width="95" height="24" rx="12"/>
-    <text class="tag" x="47.5" y="16" text-anchor="middle">Cybersecurity</text>
+    <rect class="tag-bg" width="50" height="24" rx="12"/>
+    <text class="tag" x="25" y="16" text-anchor="middle">Cloud</text>
   </g>
   
-  <g transform="translate(205, 110)">
-    <rect class="tag-bg" width="75" height="24" rx="12"/>
-    <text class="tag" x="37.5" y="16" text-anchor="middle">XDP/eBPF</text>
-  </g>
-  
-  <g transform="translate(290, 110)">
+  <g transform="translate(160, 110)">
     <rect class="tag-bg" width="85" height="24" rx="12"/>
-    <text class="tag" x="42.5" y="16" text-anchor="middle">Networking</text>
+    <text class="tag" x="42.5" y="16" text-anchor="middle">Automation</text>
+  </g>
+  
+  <g transform="translate(255, 110)">
+    <rect class="tag-bg" width="95" height="24" rx="12"/>
+    <text class="tag" x="47.5" y="16" text-anchor="middle">Infrastructure</text>
   </g>
 </svg>
