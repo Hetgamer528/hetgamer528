@@ -34,7 +34,7 @@ Since 2021, I've been on a journey deep into cloud computing and cybersecurity. 
 
 ### 🌐 Connect With Me
 <p align="center">
-  <a href="https://linkedin.com/in/hetgamer528"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" height="30" width="40" /></a>
+  <a href="https://t.me/Hetgamer528"><img src="https://gist.githubusercontent.com/cmschandan/41da54b03986886e1a4e57c8cdb38dc2/raw/1d4c61e237acc98f2d6caf1f72eedf269e6b05ee/telegram-white.svg" height="30" width="40" /></a>
   <a href="https://instagram.com/neofetch.sh"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" height="30" width="40" /></a>
   <a href="https://discord.gg/njQYA9MQ"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/discord.svg" height="30" width="40" /></a>
 </p>
