@@ -92,7 +92,7 @@ Since 2021, I've been on a journey deep into cloud computing and cybersecurity. 
 - **Virtualization:** Expertise in Proxmox, Virtualizor, and other hypervisors for HA clusters, live migration, and VM orchestration.
 
 #### 🛡️ Security Systems
-- **Low-Level Defense:** Building XDP/eBPF pipelines for high-performance L3/L4 DDoS mitigation, WAF/reverse proxy for L7 DDos Mitigation .
+- **Low-Level Defense:** Building XDP/eBPF pipelines for high-performance L3/L4 DDoS mitigation, WAF/reverse proxy for L7 DDos Mitigation.
 - **Intelligent Detection:** Implementing behavior analysis and ML-driven models for better threat detection.
 - **Network Security:** Designing resilient networks with BGP, Anycast, and ECMP for security and scalability.
 
