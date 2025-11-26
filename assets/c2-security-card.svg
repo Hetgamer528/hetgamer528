@@ -1,16 +1,54 @@
-<svg width="400" height="150" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-  <style>
-    .title { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-size: 20px; font-weight: 600; fill: #58a6ff; }
-    .desc { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-size: 14px; fill: #c9d1d9; }
-    .tag-bg { fill: #21262d; }
-    .tag-text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-size: 12px; fill: #8b949e; }
-  </style>
-  <rect width="100%" height="100%" fill="#161b22" rx="10" ry="10" />
-  <defs><clipPath id="logoClip"><circle cx="50" cy="75" r="35" /></clipPath></defs>
-  <image xlink:href="PASTE_YOUR_BASE64_DATA_HERE" x="15" y="40" width="70" height="70" clip-path="url(#logoClip)" />
-  <text x="100" y="50" class="title">C2-Security</text>
-  <text x="100" y="75" class="desc">A suite of C2 and security tools.</text>
-  <g transform="translate(100, 100)"><rect width="105" height="24" rx="12" class="tag-bg" /><text x="52.5" y="16" text-anchor="middle" class="tag-text">Security Tools</text></g>
-  <g transform="translate(215, 100)"><rect width="85" height="24" rx="12" class="tag-bg" /><text x="42.5" y="16" text-anchor="middle" class="tag-text">Automation</text></g>
-  <g transform="translate(310, 100)"><rect width="40" height="24" rx="12" class="tag-bg" /><text x="20" y="16" text-anchor="middle" class="tag-text">Go</text></g>
+<svg width="400" height="150" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .title { fill: #58a6ff; font-family: 'Segoe UI', Arial, sans-serif; font-size: 20px; font-weight: 600; }
+      .description { fill: #c9d1d9; font-family: 'Segoe UI', Arial, sans-serif; font-size: 14px; }
+      .tag { fill: #8b949e; font-family: 'Segoe UI', Arial, sans-serif; font-size: 12px; }
+      .tag-bg { fill: #21262d; }
+    </style>
+    <linearGradient id="c2Grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f97316;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#dc2626;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#161b22" rx="10"/>
+  
+  <!-- Logo - C2 Command & Control Design -->
+  <g transform="translate(20, 47)">
+    <!-- Rounded square background -->
+    <rect width="60" height="60" rx="10" fill="url(#c2Grad)"/>
+    
+    <!-- Command terminal icon -->
+    <path d="M 18 25 L 28 30 L 18 35" fill="none" stroke="#fff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="32" y1="35" x2="42" y2="35" stroke="#fff" stroke-width="2.5" stroke-linecap="round"/>
+    
+    <!-- Network nodes -->
+    <circle cx="15" cy="45" r="3" fill="#fff" opacity="0.8"/>
+    <circle cx="30" cy="48" r="3" fill="#fff" opacity="0.8"/>
+    <circle cx="45" cy="45" r="3" fill="#fff" opacity="0.8"/>
+    <line x1="15" y1="45" x2="30" y2="48" stroke="#fff" stroke-width="1.5" opacity="0.6"/>
+    <line x1="30" y1="48" x2="45" y2="45" stroke="#fff" stroke-width="1.5" opacity="0.6"/>
+  </g>
+  
+  <!-- Text -->
+  <text class="title" x="100" y="65">C2-Security</text>
+  <text class="description" x="100" y="88">A suite of C2 and security tools.</text>
+  
+  <!-- Tags -->
+  <g transform="translate(100, 110)">
+    <rect class="tag-bg" width="95" height="24" rx="12"/>
+    <text class="tag" x="47.5" y="16" text-anchor="middle">Security Tools</text>
+  </g>
+  
+  <g transform="translate(205, 110)">
+    <rect class="tag-bg" width="85" height="24" rx="12"/>
+    <text class="tag" x="42.5" y="16" text-anchor="middle">Automation</text>
+  </g>
+  
+  <g transform="translate(300, 110)">
+    <rect class="tag-bg" width="35" height="24" rx="12"/>
+    <text class="tag" x="17.5" y="16" text-anchor="middle">Go</text>
+  </g>
 </svg>
