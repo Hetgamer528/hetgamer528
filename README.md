@@ -27,7 +27,7 @@ Since 2021, I've been on a journey deep into cloud computing and cybersecurity. 
 
 ### 🛠️ Tech Stack & Tools
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=linux,debian,nginx,docker,kubernetes,terraform,ansible,git,go,python,bash,redis,postgres,mysql,grafana,prometheus,aws,gcp,cloudflare,rust,c,github,discord,c++&perline=9" />
+  <img src="https://skillicons.dev/icons?i=linux,debian,nginx,docker,kubernetes,terraform,ansible,git,go,python,bash,redis,postgres,mysql,grafana,prometheus,aws,gcp,cloudflare,rust,c,github,discord,c+&perline=9" />
 </p>
 
 ---
