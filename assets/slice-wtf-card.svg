@@ -1,41 +1,19 @@
 <svg width="400" height="150" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <style>
-      .card-bg { fill: #1a1f2e; }
-      .title { fill: #60a5fa; font-family: 'Segoe UI', Arial, sans-serif; font-size: 24px; font-weight: 600; }
+      .title { fill: #60a5fa; font-family: 'Segoe UI', Arial, sans-serif; font-size: 20px; font-weight: 600; }
       .description { fill: #d1d5db; font-family: 'Segoe UI', Arial, sans-serif; font-size: 14px; }
       .tag { fill: #9ca3af; font-family: 'Segoe UI', Arial, sans-serif; font-size: 12px; }
-      .tag-bg { fill: #374151; }
+      .tag-bg { fill: #21262d; }
     </style>
     
     <!-- Slice Logo as SVG -->
     <g id="slice-logo">
-      <rect width="40" height="40" rx="8" fill="#2563eb"/>
-      <path d="M 12 15 L 20 10 L 28 15 L 20 20 Z" fill="#60a5fa"/>
-      <path d="M 12 25 L 20 20 L 28 25 L 20 30 Z" fill="#3b82f6"/>
+      <rect width="70" height="70" rx="12" fill="#2563eb"/>
+      <path d="M 20 28 L 35 20 L 50 28 L 35 36 Z" fill="#60a5fa"/>
+      <path d="M 20 48 L 35 40 L 50 48 L 35 56 Z" fill="#3b82f6"/>
     </g>
   </defs>
   
   <!-- Background -->
-  <rect width="40" height="40" fill="#0f172a"/>
-  
-  <!-- Card -->
-  <rect class="card-bg" x="10" y="10" width="380" height="130" rx="8"/>
-  
-  <!-- Logo -->
-  <use href="#slice-logo" x="20" y="25"/>
-  
-  <!-- Text -->
-  <text class="title" x="70" y="50">Slice.WTF Hosting</text>
-  <text class="description" x="70" y="75">A high-performance hosting platform.</text>
-  
-  <!-- Tags -->
-  <rect class="tag-bg" x="70" y="90" width="50" height="24" rx="4"/>
-  <text class="tag" x="80" y="106">Cloud</text>
-  
-  <rect class="tag-bg" x="130" y="90" width="85" height="24" rx="4"/>
-  <text class="tag" x="140" y="106">Automation</text>
-  
-  <rect class="tag-bg" x="225" y="90" width="95" height="24" rx="4"/>
-  <text class="tag" x="235" y="106">Infrastructure</text>
-</svg>
+  <rect width="100%" height="100%" fill="#161b22" rx="10"/>
