@@ -18,7 +18,7 @@
 
 Since 2021, I've been on a journey deep into cloud computing and cybersecurity. My passion is building resilient, scalable, and secure systems from the ground up—whether it's a full-fledged hosting business, an automated security platform, or a high-performance Minecraft network. I thrive on solving the complex puzzles that make the internet work, from bare-metal datacenters to sophisticated, eBPF XDP projects, ML-driven detection systems.
 
-- 🔭 **What I'm building:** Hosting platforms, security systems, and automated infrastructure.
+- 🔭 **What I'm building:** Hosting platforms, security systems, automated and threat protected infrastructure.
 - 🧠 **My mindset:** Breadth-first exploration across cloud, security, networking, firewalls, and SRE.
 - 🎮 **For fun:** I develop and optimize servers, focusing on performance and threat protection.
 - ✉️ **Get in touch:** neofetch.sh@gmail.com
