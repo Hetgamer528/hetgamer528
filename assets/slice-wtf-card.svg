@@ -10,7 +10,7 @@
     
     <!-- Slice Logo as SVG -->
     <g id="slice-logo">
-      <rect width="20" height="20" rx="8" fill="#2563eb"/>
+      <rect width="40" height="40" rx="8" fill="#2563eb"/>
       <path d="M 12 15 L 20 10 L 28 15 L 20 20 Z" fill="#60a5fa"/>
       <path d="M 12 25 L 20 20 L 28 25 L 20 30 Z" fill="#3b82f6"/>
     </g>
