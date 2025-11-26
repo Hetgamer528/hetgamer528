@@ -17,7 +17,7 @@
   </defs>
   
   <!-- Background -->
-  <rect width="400" height="150" fill="#0f172a"/>
+  <rect width="40" height="40" fill="#0f172a"/>
   
   <!-- Card -->
   <rect class="card-bg" x="10" y="10" width="380" height="130" rx="8"/>
